@@ -38,7 +38,7 @@ const ClickCounter: React.FC<ClickCounterProps> = ({
 
   return (
     <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-md">
-      <h2 className="text-xl font-semibold mb-4">Contador de clics</h2>
+      <h2 className="text-xl text-center font-semibold mb-4">CONTADOR DE CLICS</h2>
 
       <div className="mb-4">
         <div className="text-4xl font-bold text-center">{conteo}</div>
@@ -48,7 +48,7 @@ const ClickCounter: React.FC<ClickCounterProps> = ({
         <button
           onClick={disminuir}
           disabled={isAtMin}
-          className="px-4 py-2 bg-gray-200 rounded disabled:opacity-50 hover:bg-gray-300"
+          className="px-4 py-2 bg-indigo-500 rounded disabled:opacity-50 hover:bg-gray-300"
           aria-label="Disminuir"
         >
           -
